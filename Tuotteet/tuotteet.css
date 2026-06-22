@@ -32,6 +32,12 @@ html{
 }
 /* #endregion */
 
+img{
+          border-radius: 5px;
+  -webkit-border-radius: 5px;
+  overflow: hidden;
+}
+
 body{
     overflow-x: hidden;
     overflow-x: clip !important;
@@ -143,18 +149,18 @@ body{
 
 .img{
     width: 50%;
-
-    margin: 20px;
+    margin: 10px;
+    height: auto;
 
     position: relative;
 
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .img img{
     width: auto;
     height: auto;
-    margin: auto;
     display: block;
     position: relative;
     top: 50%;
@@ -203,6 +209,7 @@ body{
     margin: 40px;
 
     flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 
